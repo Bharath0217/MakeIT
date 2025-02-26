@@ -251,7 +251,15 @@ body {
         flex-direction: column;
     }
     .news input {
-        width: 400px;
+        width: 300px;
+    }
+    .new-arrival-container img {
+        width: 180px;
+        height: 180px;
+        flex-wrap: wrap;
+    }
+    .news{
+        padding: 5px 10px;
     }
 
 }
