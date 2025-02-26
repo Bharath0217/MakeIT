@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeIt</title>
+    <!--link google fonts-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>MakeIt</h1>
+        <div class="navbar-link">
+            <p class="nav-link"><a href="index.html">Home</a></p>
+            <p class="nav-link"><a href="collection.html">Collection</a></p>
+            <p class="nav-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <nav class="side-navbar">
+        <p style="text-align: right; padding: 10px;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-link">
+            <p class="side-nav-link"><a href="index.html">Home</a></p>
+            <p class="side-nav-link"><a href="collection.html">Collection</a></p>
+            <p class="side-nav-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+    </nav>
+    <div class="header">
+        <div>
+            <h1>Level your Style</h1>
+            <p>With our stunning Collection</p>
+            <button class="header-button">Shop Now</button>
+        </div>
+        <div>
+            <img class="header-image" src="images/ind.jpg" alt="">
+        </div>
+    </div>
+    <div class="service">
+        <div class="service-container1">
+            <div>
+                <h2>We provide Best</h2>
+                <h2>Customer Service</h2>
+            </div>
+            <div>
+                <p>|| we ensures that our customer have best shopping experience</p>
+            </div>
+        </div>
+        <div class="service-container2">
+            <div>
+                <i class="fa-regular fa-smile"></i>
+                <h4>Statisfaction Gaurentee</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique reiciendis blanditiis asperiores dignissimos nihil eveniet?</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-smile"></i>
+                <h4> New Arrival Everyday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique reiciendis blanditiis asperiores dignissimos nihil eveniet?</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-smile"></i>
+                <h4> Fast and Free Shipping</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique reiciendis blanditiis asperiores dignissimos nihil eveniet?</p>
+            </div>
+        </div>
+    </div>
+    <h2 style="padding-left: 10px;">NEW ARRIVAL</h2>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="images/jean.avif" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/kurti.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/new5.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/top sleeve.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <h2 style="padding-left: 10px;">MOST WANTED</h2>
+    <div class="new-arrival">
+        <div class="new-arrival-container">
+            <img src="images/women.jpeg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/shoe.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/sliper.jpg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="new-arrival-container">
+            <img src="images/index.jpeg" alt="">
+            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="news">
+        <h2>Join our Newsletter</h2>
+        <p>Sign up our email Newsletter to get exclusive discounts and offers</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-heading">
+            <h2>MakeIt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, quam.</p>
+            <div>
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                <i class="fa-brands fa-whatsapp" style="color: white;"></i>
+                <i class="fa-brands fa-twitter" style="color: white;"></i>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In quod consequuntur quasi voluptas consequatur libero non recusandae excepturi, est praesentium cum culpa, id itaque adipisci exercitationem. Laboriosam mollitia placeat vel.</p>
+        <p style="margin-top: 10px;">&#169 2025 MakeIt.com</p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
